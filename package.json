@@ -5,7 +5,7 @@
   "homepage": "https://squydy.github.io/mapartcraft",
   "repository": {
     "type": "git",
-    "url": "https://github.com/squydy/mapartcraft.github.io.git"
+    "url": "https://github.com/squydy/mapartcraft.git"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
