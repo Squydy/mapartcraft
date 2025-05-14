@@ -7,7 +7,7 @@ import Tooltip from "../tooltip";
 import MapModes from "./json/mapModes.json";
 import WhereSupportBlocksModes from "./json/whereSupportBlocksModes.json";
 
-import NBTWorker from "./workers/nbt.jsworker";
+import NBTWorker from "./workers/nbt.js";
 
 import "./greenButtons.css";
 
