@@ -577,12 +577,7 @@ class MapartController extends Component {
     }
     //Should do the same but compiler happy now????
     //guess not we try #5
-    if (true) {
-    } 
-    else {
-    onCorruptedPreset();
-    return null;
-    }
+    //hahahahah i hate you perish
     let selectedBlocks = { ...this.state.selectedBlocks };
     let presetRegex = /([0-9a-z]+)(?=([Q-ZA-P]+))/g;
     let match;
