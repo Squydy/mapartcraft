@@ -5,12 +5,14 @@
   "homepage": "https://squydy.github.io/mapartcraft",
   "repository": {
     "type": "git",
-    "url": "https://github.com/squydy/mapartcraft.git"
+    "url": "https://github.com/squydy/mapartcraft.github.io.git"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "cloudflare": "^4.2.0",
+    "create-cloudflare": "^2.47.0",
     "jszip": "^3.6.0",
     "pako": "^1.0.11",
     "react": "^17.0.2",
@@ -51,5 +53,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "worker-loader": "^3.0.8"
+  }
 }
