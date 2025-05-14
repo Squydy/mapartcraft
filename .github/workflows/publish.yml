@@ -7,7 +7,7 @@ jobs:
     concurrency: ci-${{ github.ref }}
     strategy:
       matrix:
-        node-version: [24.x] 
+        node-version: [16.x] 
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
