@@ -576,8 +576,11 @@ class MapartController extends Component {
 }
     }
     //Should do the same but compiler happy now????
-    if (/^[0-9a-zA-Z]+$/.test(encodedPreset)) {
-    } else {
+    //guess not we try #2
+    const regex = new RegExp("^[0-9a-zA-Z]+$");
+    if (regex.test(encodedPreset)) {
+    } 
+    else {
     onCorruptedPreset();
     return null;
     }
