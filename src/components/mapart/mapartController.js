@@ -571,6 +571,9 @@ class MapartController extends Component {
         document.body.style.backgroundSize="100%";
         fetch("https://derpibooru.org/api/v1/json/search/images?q=scenery,score.gte:1000,safe&sf=random&per_page=1").then(req=>req.json()).then(derp=>document.body.style.backgroundImage=`url(${derp.images[0].representations.full})`);
         return null;
+      default:
+    console.error('Unexpected option: ', someVariable);  // Handle the default case
+}
     }
     if (!/^[0-9a-zQ-ZA-P]*$/g.test(encodedPreset)) {
       onCorruptedPreset();
