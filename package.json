@@ -2,7 +2,7 @@
   "name": "mapartcraft-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/mapartcraft",
+  "homepage": "http:///mapartcraft",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
@@ -39,5 +39,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "A Minecraft mapart schematic and map.dat generator, designed to be feasible for both server admins and survival players on servers like 2b2t, running in your browser.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
