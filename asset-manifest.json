@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/mapartcraft/static/css/main.dad4e89d.chunk.css",
+    "main.js": "/mapartcraft/static/js/main.1f47d65d.chunk.js",
+    "main.js.map": "/mapartcraft/static/js/main.1f47d65d.chunk.js.map",
+    "runtime-main.js": "/mapartcraft/static/js/runtime-main.71755464.js",
+    "runtime-main.js.map": "/mapartcraft/static/js/runtime-main.71755464.js.map",
+    "static/js/2.e18b6939.chunk.js": "/mapartcraft/static/js/2.e18b6939.chunk.js",
+    "static/js/2.e18b6939.chunk.js.map": "/mapartcraft/static/js/2.e18b6939.chunk.js.map",
+    "index.html": "/mapartcraft/index.html",
+    "static/css/main.dad4e89d.chunk.css.map": "/mapartcraft/static/css/main.dad4e89d.chunk.css.map",
+    "static/js/2.e18b6939.chunk.js.LICENSE.txt": "/mapartcraft/static/js/2.e18b6939.chunk.js.LICENSE.txt",
+    "static/media/classicVsValley.fb0924c8.png": "/mapartcraft/static/media/classicVsValley.fb0924c8.png",
+    "static/media/flag.014db69c.svg": "/mapartcraft/static/media/flag.014db69c.svg",
+    "static/media/flag.0f2053ce.svg": "/mapartcraft/static/media/flag.0f2053ce.svg",
+    "static/media/flag.12ca02a6.svg": "/mapartcraft/static/media/flag.12ca02a6.svg",
+    "static/media/flag.1b3cea31.svg": "/mapartcraft/static/media/flag.1b3cea31.svg",
+    "static/media/flag.1edd26d8.svg": "/mapartcraft/static/media/flag.1edd26d8.svg",
+    "static/media/flag.35ce7c3e.svg": "/mapartcraft/static/media/flag.35ce7c3e.svg",
+    "static/media/flag.44571d53.svg": "/mapartcraft/static/media/flag.44571d53.svg",
+    "static/media/flag.64f4888d.svg": "/mapartcraft/static/media/flag.64f4888d.svg",
+    "static/media/flag.737a72cb.svg": "/mapartcraft/static/media/flag.737a72cb.svg",
+    "static/media/flag.747b050b.svg": "/mapartcraft/static/media/flag.747b050b.svg",
+    "static/media/flag.74963cac.svg": "/mapartcraft/static/media/flag.74963cac.svg",
+    "static/media/flag.79f80263.svg": "/mapartcraft/static/media/flag.79f80263.svg",
+    "static/media/flag.c754c87b.svg": "/mapartcraft/static/media/flag.c754c87b.svg",
+    "static/media/flag.ea275ed5.svg": "/mapartcraft/static/media/flag.ea275ed5.svg",
+    "static/media/flag.ebbaa856.svg": "/mapartcraft/static/media/flag.ebbaa856.svg",
+    "static/media/flag.ee26f64c.svg": "/mapartcraft/static/media/flag.ee26f64c.svg",
+    "static/media/flag_pop.431e7ad3.svg": "/mapartcraft/static/media/flag_pop.431e7ad3.svg",
+    "static/media/index.css": "/mapartcraft/static/media/kenpixel_mini_square.049f97fd.woff",
+    "static/media/mapCanvas.54b8ad66.jsworker": "/mapartcraft/static/media/mapCanvas.54b8ad66.jsworker",
+    "static/media/nbt.0d19da61.jsworker": "/mapartcraft/static/media/nbt.0d19da61.jsworker",
+    "static/media/textures.1fb60425.png": "/mapartcraft/static/media/textures.1fb60425.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71755464.js",
+    "static/js/2.e18b6939.chunk.js",
+    "static/css/main.dad4e89d.chunk.css",
+    "static/js/main.1f47d65d.chunk.js"
+  ]
+}
