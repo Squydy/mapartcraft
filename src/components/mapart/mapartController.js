@@ -577,7 +577,7 @@ class MapartController extends Component {
     }
     //Should do the same but compiler happy now????
     //guess not we try #5
-    if (1=1) {
+    if (true) {
     } 
     else {
     onCorruptedPreset();
