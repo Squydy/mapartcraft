@@ -1,7 +1,7 @@
 import React, { Component, createRef } from "react";
 
 import Tooltip from "../tooltip";
-import MapCanvasWorker from "./workers/mapCanvas.jsworker"; // FINALLY got this to work; .js gets imported as code, anything else as URL
+import MapCanvasWorker from "./workers/mapCanvas.js"; // FINALLY got this to work; .js gets imported as code, anything else as URL
 
 import BackgroundColourModes from "./json/backgroundColourModes.json";
 import CropModes from "./json/cropModes.json";
