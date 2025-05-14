@@ -575,9 +575,11 @@ class MapartController extends Component {
     console.error('Unexpected option: ', someVariable);  // Handle the default case
 }
     }
-    if (!/^[0-9a-zA-Z]*$/g.test(encodedPreset)) {
-      onCorruptedPreset();
-      return null;
+    //Should do the same but compiler happy now????
+    if (/^[0-9a-zA-Z]+$/.test(encodedPreset)) {
+    } else {
+    onCorruptedPreset();
+    return null;
     }
     let selectedBlocks = { ...this.state.selectedBlocks };
     let presetRegex = /([0-9a-z]+)(?=([Q-ZA-P]+))/g;
