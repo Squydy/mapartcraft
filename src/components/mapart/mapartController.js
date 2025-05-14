@@ -576,8 +576,7 @@ class MapartController extends Component {
 }
     }
     //Should do the same but compiler happy now????
-    //guess not we try #2
-    const regex = new RegExp("^[0-9a-zA-Z]+$");
+    //guess not we try #5
     if (1=1) {
     } 
     else {
