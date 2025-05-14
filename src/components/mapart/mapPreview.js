@@ -1,7 +1,13 @@
 import React, { Component, createRef } from "react";
 
 import Tooltip from "../tooltip";
-import MapCanvasWorker from "./workers/mapCanvas.js"; // FINALLY got this to work; .js gets imported as code, anything else as URL
+
+
+//import MapCanvasWorker from "./workers/mapCanvas.js"; // FINALLY got this to work; .js gets imported as code, anything else as URL
+//well now its causing issues for me so im gonna try this
+mapCanvasWorker = new Worker(URL.createObjectURL(
+  new Blob([`(${MapCanvasWorker.toString()})()`], { type: 'text/javascript' })
+));
 
 import BackgroundColourModes from "./json/backgroundColourModes.json";
 import CropModes from "./json/cropModes.json";
