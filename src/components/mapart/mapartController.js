@@ -575,7 +575,7 @@ class MapartController extends Component {
     console.error('Unexpected option: ', someVariable);  // Handle the default case
 }
     }
-    if (!/^[0-9a-zQ-ZA-P]*$/g.test(encodedPreset)) {
+    if (!/^[0-9a-zA-Z]*$/g.test(encodedPreset)) {
       onCorruptedPreset();
       return null;
     }
